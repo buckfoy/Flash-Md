@@ -16,13 +16,13 @@
         "PREFIX":
     {
       "description":"choose your prefix of bot",
-      "value":".",
+      "value":"+",
       "required":true
     },
       "AUTO_REACTION":
     {
       "description":"Put on if you want the bot to react to people's messages.It won't react to your messages and those from creator France King.", 
-      "value":"off", 
+      "value":"on", 
       "required":false 
     }, 
     "AUTO_READ_MESSAGES":
@@ -60,7 +60,7 @@
     "BOT_MODE":
     {
       "description":"put private  to put your bot on private mode or public to put it on public mod",
-      "value":"private",
+      "value":"public",
       "required":false
     }
         ,
@@ -85,14 +85,14 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "KADINYA"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of kenya '254')",
     "required":false,
-    "value": "254751284190"
+    "value": "254759799995"
   },
     "WARN_COUNT":
   {
@@ -114,8 +114,8 @@
   },
   "PRESENCE":{
     "description":"Put online to indicate that you are ever online even if you are not. Put typing to indicate that you are currently typing a message. Put recording to indicate that you are currently recording an audio. Or leave the field blank to indicate your real state.",
-    "value":"",
-    "required": false
+    "value":"typing",
+    "required": true
   }  
   },
   
